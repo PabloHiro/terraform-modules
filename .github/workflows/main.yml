@@ -2,7 +2,7 @@ name: Test
 on: [push]
 jobs:
   terraform-qa:
-    runs-on: docker pull mijdavis2/pre-commit-terraform
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - name: Call Composite Action terraform-qa
