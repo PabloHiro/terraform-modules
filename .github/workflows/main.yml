@@ -7,4 +7,4 @@ jobs:
     - uses: actions/checkout@v3
     - name: Call Composite Action terraform-qa
       id: terraform-qa
-      uses: github-actions/terraform-qa@main
+      uses: PabloHiro/github-actions@main#/terraform-qa
