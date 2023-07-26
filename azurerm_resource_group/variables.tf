@@ -4,12 +4,12 @@ variable "location" {
 }
 
 variable "name" {
-    type        = string
-    description = "The name of the resource."
+  type        = string
+  description = "The name of the resource."
 }
 
 variable "tags" {
-    type        = map(string)
-    description = "A map of tags to assign to the resource."
-    default = {}
+  type        = map(string)
+  description = "A map of tags to assign to the resource."
+  default     = {}
 }
